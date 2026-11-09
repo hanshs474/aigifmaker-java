@@ -120,7 +120,7 @@ public final class Aigifmaker {
     private final String apiKey;
     private final String base;
     private final Transport transport;
-    private Duration timeout = Duration.ofMinutes(5);
+    private Duration timeout = Duration.ofMinutes(15);
     private Duration pollEvery = Duration.ofSeconds(3);
 
     /** A client that reads the key from the {@code AIGIFMAKER_API_KEY} environment variable. */

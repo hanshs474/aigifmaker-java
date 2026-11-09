@@ -57,7 +57,7 @@ int left = gifs.credits();             // free to call
 
 Accounts that have not bought credits yet may wait in a short queue: `status` then reports `processing` with `queued == true` and `queueEta` in seconds. That is normal; keep polling.
 
-`generate` polls every 3 seconds and gives up after 5 minutes. Change that with `timeout(Duration)` and `pollEvery(Duration)`:
+`generate` polls every 3 seconds and gives up after 15 minutes. Change that with `timeout(Duration)` and `pollEvery(Duration)`:
 
 ```java
 Aigifmaker gifs = new Aigifmaker("sk-...").timeout(Duration.ofMinutes(10));
