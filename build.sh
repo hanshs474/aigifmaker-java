@@ -5,7 +5,7 @@ set -e
 cd "$(dirname "$0")"
 if [ -z "$JAVA_HOME" ] && [ -d "$HOME/sdk/jdk-17.0.20.1+1/Contents/Home" ]; then export JAVA_HOME=$HOME/sdk/jdk-17.0.20.1+1/Contents/Home; fi
 [ -n "$JAVA_HOME" ] && export PATH=$JAVA_HOME/bin:$PATH
-V=0.1.0; A=aigifmaker; G=io/github/hanshs474
+V=0.1.1; A=aigifmaker; G=io/github/hanshs474
 rm -rf build; mkdir -p build/classes build/test build/doc
 javac --release 11 -d build/classes $(find src/main -name '*.java')
 javac --release 11 -cp build/classes -d build/test src/test/java/io/github/hanshs474/aigifmaker/AigifmakerTest.java

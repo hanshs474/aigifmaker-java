@@ -34,7 +34,7 @@ public final class Aigifmaker {
     /** Where credits are bought. */
     public static final String PRICING_URL = BASE_URL + "/pricing";
     /** Library version, sent in the User-Agent. */
-    public static final String VERSION = "0.1.0";
+    public static final String VERSION = "0.1.1";
 
     /** Where a submitted GIF stands. */
     public static final class Status {

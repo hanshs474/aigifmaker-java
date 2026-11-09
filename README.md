@@ -22,14 +22,14 @@ Maven:
 <dependency>
   <groupId>io.github.hanshs474</groupId>
   <artifactId>aigifmaker</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
 </dependency>
 ```
 
 Gradle:
 
 ```kotlin
-implementation("io.github.hanshs474:aigifmaker:0.1.0")
+implementation("io.github.hanshs474:aigifmaker:0.1.1")
 ```
 
 ## API key
@@ -75,6 +75,6 @@ Every failure is an unchecked `AigifmakerException` with a `kind()`; the common 
 
 ## Build from source
 
-`./build.sh` compiles, runs the tests and lays out the jar, sources and javadoc jars in `build/`. `java -cp build/aigifmaker-0.1.0.jar example/Smoke.java` runs two free live checks.
+`./build.sh` compiles, runs the tests and lays out the jar, sources and javadoc jars in `build/`. `java -cp build/aigifmaker-0.1.1.jar example/Smoke.java` runs two free live checks.
 
 Questions: support@aigifmaker.ai. MIT licensed.

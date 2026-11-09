@@ -6,7 +6,7 @@
 
   <groupId>io.github.hanshs474</groupId>
   <artifactId>aigifmaker</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <packaging>jar</packaging>
 
   <name>AI GIF Maker SDK</name>
