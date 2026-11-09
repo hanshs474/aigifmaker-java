@@ -1,0 +1,15 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Build + unit tests (mocked)
+        run: ./build.sh
+      - name: Live smoke (free, no real key)
+        run: java -cp build/aigifmaker-0.1.0.jar example/Smoke.java

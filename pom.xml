@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.github.hanshs474</groupId>
+  <artifactId>aigifmaker</artifactId>
+  <version>0.1.0</version>
+  <packaging>jar</packaging>
+
+  <name>AI GIF Maker SDK</name>
+  <description>Official SDK for AI GIF Maker (aigifmaker.ai): turn text into animated GIFs.</description>
+  <url>https://aigifmaker.ai/?utm_source=maven&amp;utm_medium=package</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>hanshs474</id>
+      <name>hanshs474</name>
+      <email>support@aigifmaker.ai</email>
+      <organization>AI GIF Maker</organization>
+      <organizationUrl>https://aigifmaker.ai/?utm_source=maven&amp;utm_medium=package</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/hanshs474/aigifmaker-java.git</connection>
+    <developerConnection>scm:git:https://github.com/hanshs474/aigifmaker-java.git</developerConnection>
+    <url>https://github.com/hanshs474/aigifmaker-java</url>
+  </scm>
+
+  <properties>
+    <maven.compiler.release>11</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+</project>
